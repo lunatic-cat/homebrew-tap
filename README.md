@@ -14,3 +14,5 @@ You can cafely uninstall it, this is drop-in replacement.
 ```bash
 brew install lunatic-cat/tap/squashfs
 ```
+
+[upstream PR](https://github.com/Homebrew/homebrew-core/pull/43253) & [patch PR](https://github.com/Homebrew/formula-patches/pull/277)
