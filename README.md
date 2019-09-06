@@ -6,6 +6,19 @@
 brew tap lunatic-cat/tap
 ```
 
+## IPFS cluster
+
+```bash
+brew install ipfs-cluster-ctl
+brew install ipfs-cluster-service
+```
+
+or if you want to build both from source
+
+```bash
+brew install ipfs-cluster
+```
+
 ## SquashFS + ZSTd
 
 This conflicts with squashfs@homebrew-core. 
