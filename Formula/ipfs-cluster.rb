@@ -25,7 +25,8 @@ class IpfsCluster < Formula
     Get <hash part of multiaddress of first peer> with `ipfs-cluster-ctl id` on existing node.
     Join a cluster with multiaddress (like /ip4/<ip>/tcp/<port>/ipfs/<hash>):
 
-    $ export CLUSTER_SECRET=... ipfs-cluster-service init
+    $ export CLUSTER_SECRET=...
+    $ ipfs-cluster-service init
     $ ipfs-cluster-service daemon --bootstrap <multiaddress of first peer>
   EOS
   end
